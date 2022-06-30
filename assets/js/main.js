@@ -29,7 +29,7 @@ $(document).ready(function () {
             $('#elevatorBtn1').removeClass('active')
             directionUp.removeClass('going-up-activated')
             directionDown.removeClass('going-down-activated')
-            currentFloorIndicator.text('2')
+            currentFloorIndicator.text('1')
             // Simulate the elevator stopping for a second before moving onto the next floor
         }).delay(1000)
     })
