@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cherry Elevator</title>
+    <link rel="stylesheet" href="/assets/styles/app.css">
+</head>
+<body>
+    <div class="container"> 
+        <!-- Elevator Panel -->
+        <div class="elevator-block">
+            <div class="elevator-panel">
+                <div id="currentFloorIndicator"></div>
+                <div class="indicators">
+                    <div class="going-up"></div>
+                    <div class="going-down"></div>
+                </div>
+            </div>
+            <div id="elevatorBtns" class="elevator-buttons">
+                <div class="btn-row-1">
+                    <div id="elevatorBtn3" class="btn elevator-button-3">3</div>
+                    <div id="elevatorBtn1" class="btn elevator-button-1">1</div>
+                </div>
+                <div class="btn-row-2">
+                    <div id="elevatorBtn4" class="btn elevator-button-4">4</div>
+                    <div id="elevatorBtn2" class="btn elevator-button-2">2</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Elevator Floor View -->
+        <div id="floors">
+            <div id="floorFour" class="current-floor">
+                <span>4</span>
+            </div>
+            <div id="floorThree" class="current-floor">
+                <span>3</span>
+            </div>
+            <div id="floorTwo" class="current-floor">
+                <span>2</span>
+            </div>
+            <div id="floorOne" class="current-floor">
+                <span>1</span>
+            </div>
+        </div>
+    </div>
+    <!-- Include jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="/assets/js/main.js" type="text/javascript"></script>
+</body>
+</html>
